@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+body{
+    background-color: #232f3e;
+}
+
+/* Header CSS */
+
+.navbar {
+    height: 60px;
+    background-color: rgb(15, 17, 17);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 36px;
+    width: 132px;
+    padding-top: 17px;
+    padding-right: 10px;
+}
+.logo {
+    height: 40px;
+    width: 132px;
+    background-image: url(images/amazon-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 18px;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.text-one {
+    color: #CCCCCC;
+    margin-left: 15px;
+    font-size: 0.80rem;
+}
+
+.text-two {
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.address-icon {
+    display: flex;
+}
+
+.nav-address {
+    padding: 8px;
+}
+
+.nav-search {
+    display: flex;
+    background-color: aqua;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+    justify-content: space-evenly;
+}
+
+.nav-search:hover{
+    border: 1px solid orange;
+    
+}
+
+.search-select {
+    background-color: #e6e6e6;
+    width: 50px;
+    height: 40px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    padding-left: 6px;
+}
+
+.search-icon {
+    width: 45px;
+    height: 40px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5 rem;
+    color: black;
+    background-color: rgb(250, 212, 40);
+    border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    cursor: pointer;
+}
+
+.country {
+    height: 50px;
+    width: 100px;
+    padding-top: 17px;
+    padding-right: 10px;
+    display: flex;
+}
+
+.country-logo {
+    height: 33px;
+    width: 85px;
+    background-image: url(images/pk.png.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.pak {
+    display: flex;
+    justify-content: right;
+    padding-top: 9px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.pk {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+span {
+    font-size: 0.8rem;
+}
+
+.p2 {
+    font-size: 0.9rem;
+   font-weight: bold;
+    display: flex;
+}
+
+.down-arrow{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.sign-in{
+    padding: 5px;
+}
+.orders{
+    padding: 5px;
+}
+
+.nav-cart{
+    padding: 5px;
+}
+
+.nav-cart i{
+    font-size: 33px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.pannel{
+    width: 100%;
+    height: 39px;
+    background-color: #232f3e;
+    display: flex;
+align-items: center;
+justify-content: space-evenly;
+color: white;
+
+}
+
+.pannel-all{
+    padding: 8px;
+}
+
+.pannel-options{
+    display: flex;
+    width: 70%;
+    font-size: 0.85rem;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.pannel-options p{
+    margin-left: 12px;
+}
+
+.deals{
+    font-size: 0.98rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+/* Header CSS end here */
+
+
+/* Coontent CSS Starts */
+
+.hero{
+    height: 350px;
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.hero-msg{
+    background-color: white;
+    height: 30px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    border-radius: 4px;
+    font-size: 0.89rem;
+}
+
+.hero-msg a{
+    color: rgb(178, 236, 178);
+    text-decoration: none;
+}
+
+.shop-content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  rgb(176, 221, 176);  
+}
+
+.box{
+   
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-content{
+    height: 350px;
+    width: 260px;
+    font-size: 0.87rem;
+}
+
+.box-img{
+    height: 300px;
+    background-image: url(images/box1-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 7px;
+}
+
+.box-content p{
+    margin-top: 15px;
+    color: rgb(141, 207, 141);
+}
+
+
+.box2-img{
+    height: 300px;
+    background-image: url(images/box2-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 7px;
+}
+.box3-img{
+    height: 300px;
+    background-image: url(images/box3-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 7px;
+}
+.box4-img{
+    height: 300px;
+    background-image: url(images/box4-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 7px;
+}
+.box5-img{
+    height: 300px;
+    background-image: url(images/box5-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 7px;
+}
+.box6-img{
+    height: 300px;
+    background-image: url(images/box6-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 7px;
+}
+.box7-img{
+    height: 300px;
+    background-image: url(images/box7-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 7px;
+}
+.box8-img{
+    height: 300px;
+    background-image: url(images/box8-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 7px;
+}
+  /* Content CSS end here */
+
+
+  /* Footer CSS Starts */
+
+footer{
+    margin-top: 20px;
+}
+.footer-panel1{
+    background-color: #37475a;
+    color: white;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+
+.footer-panel2{
+    height: 300px;
+    background-color:#232f3e;
+    color: #dddddd;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.5px;
+}
+
+ul a{
+    display: block;
+    line-height: 27px; 
+    color:#CCCCCC;
+    font-size: 0.88rem;
+    text-decoration: none;
+}
+
+ul{
+    margin-top: 30px;
+}
+
+.footer-panel3{
+    height: 70px;
+    background-color:#232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;  
+}
+
+.footer-panel3 .logo{
+    background-image: url(images/amazon-logo.png);
+    margin-top: 10px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.btn1{
+    height: 34px;
+    width: 130px;
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.btn2{
+    height: 34px;
+    width: 135px;
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.btn3{
+    height: 34px;
+    width: 137px;
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    background-image: url(images/US.png.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 3px;
+}
+
+.footer-panel4{
+    background-color: #131a22;
+    color: #dddddd;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); 
+    gap: 20px; 
+ 
+}
+
+.footer-panel4 a{
+    color:#CCCCCC;
+    text-decoration: none; 
+}
+
+.last-panel p{
+    color: #dddddd;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-panel{
+    background-color: #131A22;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+/* Footer CSS End */
+
+
+
+
+
+
+
+
+
+
